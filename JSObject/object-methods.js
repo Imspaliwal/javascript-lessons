@@ -6,6 +6,10 @@ person1.job = "SDET";
 
 console.log(person1);
 
+for (let prop in person1) {
+  console.log(person1[prop]);
+}
+
 const person2 = {};
 
 person2.fname = "Rohit";
